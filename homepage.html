@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Webpage</title>
+
+    <link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+  <div class="background-image">
+    <img src="images/download.jpg" alt="Weather Image" class="weather-img">
+  </div>
+
+
+    <div class="text_only">
+
+      <div class="box">
+        <div class="wind_speed">
+            <div class="wind">
+                Wind Speed
+            </div>
+            <div class="speed">
+                12Km/H
+            </div>
+            <div class="ws">
+                    <img src="images/windspeed.png" alt="Windspeed">
+            </div>
+        </div>
+        <div class="description">
+            Light Rain
+        </div>
+        <div class="humidity">
+            <div class="Hum">
+                Humidity
+            </div>
+            <div class="per">
+                45%
+            </div>
+            <div class="image">
+                <img src="images/humidity.png" alt="Humidity">
+            </div>
+        </div> 
+        <div class="details">
+        Weather
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="color">
+      <div class="box1">
+        <div class="Detail">Details</div>
+        <div class="t">Temperature :</div> 
+        <div class="temp">26°C</div>
+        <div class="fl">Feels Like :</div>
+        <div class="feel_like">23°C</div>
+        <div class="mm">Min/Max :</div>
+        <div class="Min">12°C</div>
+        <div class="slash">/</div>
+        <div class="Max">32°C</div>
+        <div class="humidity1">Humidity :</div>
+        <div class="val">45%</div>
+        <div class="ws1">Wind Speed :</div>
+        <div class="speed1">12Km/H</div>
+        <div class="pressure">Pressure :</div>
+        <div class="Pa">1023 hPa</div>
+
+        
+
+      </div>
+
+
+      <div class="states">
+        Search Weather by State
+          <div class="statesnames">
+          <button id="nsw" class="name" >New South Wales</button>
+          <button id="ql" class="name" >Queensland</button>
+          <button id="sa" class="name" >South Australia</button>
+          <button id="t" class="name" >Tasmania</button>
+          <button id="v" class="name" >Victoria</button>
+          <button id="wa" class="name" >Western Australia</button>
+        </div>
+      </div>
+
+      <div class="half">
+        <div class="container">
+          <div class="header">
+            <div class="searchbar">
+              <input id="search" type="text" class="input" placeholder="Enter your location"/>
+              <button id="search-button">Search</button> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="weather_details">
+      <div class="temperature">
+        26°C
+      </div>
+
+
+      <div class="city_name">
+          Melbourne
+      </div>
+
+    </div>
+
+    <script src="homepage.js"></script>
+</body>
+</html>

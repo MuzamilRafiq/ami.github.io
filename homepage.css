@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: "Times New Roman", Times, serif;
+}
+  
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.background-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.color{
+    width: 550px;
+    height: 100%;
+    background-color: none;
+    position: absolute;
+    right: 0;
+}
+.half {
+    width: 550px;
+    height: 85%;
+    background-color: none;
+    padding: 28px;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    border-left: 2px solid black;
+ }
+  
+  
+.container {
+    width: 400px;
+    background-color: none;
+    border-radius: 12px;
+    padding: 28px;
+    position: absolute;
+    top: 0;
+    right: 100px;
+}
+
+.searchbar {
+    width: 100%;
+    height: min-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: none;
+
+}
+  
+#search {
+    width: 80%;
+    padding: 8px;
+    border-radius: 4px;
+    text-transform: capitalize;
+    color: black;
+    font-size: 20px;
+    border: 1px;
+    background-color: lightblue;
+}
+
+#search-button {
+    width: 20%;
+    height: min-content;
+    padding: 13px;
+    background-color: #1e2532;
+    color: white;
+    border-radius: 2px;
+    border: 1px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.weather_details{
+    width: 990px;
+    height: 100%;
+    position: absolute;
+    background-color: none;
+    top: 0;
+    left: 0;
+
+}
+.city_name{
+    font-size: 70px;
+    background-color: none;
+    
+    position: absolute;
+    top: 180px;
+    left: 100px;
+}
+.temperature{
+    font-size: 50px;
+    position: absolute;
+    top: 250px;
+    left: 100px;
+
+
+}
+.box{
+    width: 790px;
+    top: 450px;
+    left: 100px;
+    position: absolute;
+    background-color: none;
+    border-top: 2px solid black;
+
+}
+.details{
+    top: 5px;
+    left: 30px;
+    font-size: 40px;
+    position: absolute;
+
+}
+.description{
+    top: 65px;
+    left: 35px;
+    font-size: 20px;
+    position: absolute;
+
+
+}
+.Hum{
+    top: 95px;
+    left: 35px;
+    font-size: 20px;
+    position: absolute;
+}
+.per{
+    top: 120px;
+    left: 50px;
+    font-size: 20px;
+    position: absolute;
+}
+.image{
+    top: 96px;
+    left: 115px;
+    position: absolute;
+}
+.image img{
+    width: 4%;
+    height: 4%;
+}
+.wind{
+    top: 150px;
+    left: 35px;
+    font-size: 20px;
+    position: absolute;
+
+}
+.ws{
+    top: 151px;
+    left: 140px;
+    position: absolute;
+}
+.ws img{
+    width: 4%;
+    height: 4%;
+}
+.speed{
+    top: 175px;
+    left: 40px;
+    position: absolute;
+}
+.box1{
+    width: 450px;
+    height: 270px;
+    position: absolute;
+    top: 150px;
+    right: 50px;
+    background-color: none;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.Detail{
+    left: 30px;
+    top: 10px;
+    position: absolute;
+    font-size: 30px;
+
+}
+.t{
+    left: 30px;
+    top: 65px;
+    position: absolute;
+    font-size: 20px;
+}
+.temp{
+    left: 165px;
+    top: 65px;
+    position: absolute;
+    font-size: 20px;
+}
+.fl{
+    left: 32px;
+    top: 95px;
+    position: absolute;
+    font-size: 20px;
+}
+.feel_like{
+    top: 95px;
+    position: absolute;
+    font-size: 20px;
+    left: 165px;
+
+}
+.mm{
+    top: 125px;
+    left: 32px;
+    position: absolute;
+    font-size: 20px;
+
+}
+.Min{
+    top: 125px;
+    position: absolute;
+    font-size: 20px;
+    left: 140px;
+}
+.slash{
+    top: 120px;
+    position: absolute;
+    font-size: 30px;
+    left: 190px;
+}
+.Max{
+    top: 125px;
+    position: absolute;
+    font-size: 20px;
+    left: 208px;
+}
+.humidity1{
+    top: 155px;
+    left: 32px;
+    position: absolute;
+    font-size: 20px;
+}
+.val{
+    top: 155px;
+    left: 165px;
+    position: absolute;
+    font-size: 20px;
+}
+.ws1{
+    top: 185px;
+    left: 32px;
+    position: absolute;
+    font-size: 20px;
+}
+.speed1{
+    top: 185px;
+    left: 165px;
+    position: absolute;
+    font-size: 20px;
+}
+.pressure{
+    top: 214px;
+    left: 32px;
+    position: absolute;
+    font-size: 20px;
+}
+.Pa{
+    top: 214px;
+    left: 165px;
+    position: absolute;
+    font-size: 20px;
+}
+
+.states {
+    width: 450px;
+    height: 270px;
+    position: absolute;
+    top: 440px;
+    right: 50px;
+    background-color: none;
+    border-bottom: 2px solid black;
+    font-size: 30px;
+    text-align: center;
+    z-index: 1; /* Set a higher z-index to ensure it appears above the button */
+}
+  
+.statesnames {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 15px;
+    padding: 30px;
+    background-color: none;
+    z-index: 1; /* Set a higher z-index to ensure it appears above the button */
+}
+  
+button.name {
+    background-color: lightblue;
+    border: 1px solid #0e0c0c;
+    font-size: 20px;
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    margin: 10px;
+    cursor: pointer;
+    position: relative;
+    z-index: 2; /* Set a higher z-index to ensure it appears above the states elements */
+}
+  
+
+  
+
